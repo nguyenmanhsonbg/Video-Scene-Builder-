@@ -9,7 +9,8 @@
     "studio": "remotion studio src/index.ts",
     "validate": "tsx src/cli/main.ts validate",
     "render": "tsx src/cli/main.ts render",
-    "preview": "tsx src/cli/main.ts preview"
+    "preview": "tsx src/cli/main.ts preview",
+    "tts:q01": "tsx scripts/generate_q01_tts.ts"
   },
   "dependencies": {
     "@remotion/bundler": "4.0.525",
@@ -26,6 +27,7 @@
     "@types/node": "22.20.3",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
+    "node-edge-tts": "1.2.10",
     "tsx": "4.23.13",
     "typescript": "7.0.2",
     "vitest": "5.0.1"

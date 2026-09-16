@@ -4,7 +4,7 @@
     {
       "id": "QUESTION",
       "audio": "audio/Q01_01_question.mp3",
-      "duration": 10.06,
+      "duration": 6.024,
       "subtitle": "Câu một. Doctors often check patients' blood pressure."
     },
     {
@@ -16,19 +16,19 @@
     {
       "id": "IDENTIFY_SVO",
       "audio": "audio/Q01_02_svo.mp3",
-      "duration": 3.58,
+      "duration": 15.288,
       "subtitle": "Trước tiên, chúng ta xác định các thành phần của câu."
     },
     {
       "id": "TRANSFORM",
       "audio": "audio/Q01_03_transform.mp3",
-      "duration": 12.72,
+      "duration": 39.648,
       "subtitle": "Bây giờ, chúng ta chuyển câu chủ động sang câu bị động."
     },
     {
       "id": "FINAL_ANSWER",
       "audio": "audio/Q01_04_answer.mp3",
-      "duration": 6.35,
+      "duration": 17.688,
       "subtitle": "Câu bị động hoàn chỉnh là: Patients' blood pressure is often checked by doctors."
     }
   ]
