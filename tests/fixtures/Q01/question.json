@@ -1,0 +1,27 @@
+{
+  "questionId": "Q01",
+  "questionNumber": 1,
+  "topic": "Present Simple Passive",
+  "active": {
+    "fullSentence": "Doctors often check patients' blood pressure.",
+    "subject": "Doctors",
+    "adverb": "often",
+    "verb": "check",
+    "object": "patients' blood pressure"
+  },
+  "passive": {
+    "subject": "Patients' blood pressure",
+    "be": "is",
+    "adverb": "often",
+    "verbV3": "checked",
+    "agent": "by doctors"
+  },
+  "grammar": {
+    "subjectNumber": "singular",
+    "beReason": "singular -> is",
+    "verbTransformation": "check -> checked",
+    "ruleLabel": "PRESENT SIMPLE PASSIVE",
+    "rule": "S + am/is/are + V3/-ed + (by O)"
+  },
+  "finalAnswer": "Patients' blood pressure is often checked by doctors."
+}

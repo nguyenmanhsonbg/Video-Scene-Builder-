@@ -383,7 +383,7 @@ output/Q01/
 }
 ```
 
-FFmpeg support is declared as a project dependency/configuration so rendering does not require a system-wide `ffmpeg` executable. The implementation will verify the selected Remotion/FFmpeg setup with a real MP4 smoke render.
+The exact Remotion packages are installed together, including the Windows compositor package that supplies the platform `ffmpeg.exe` and `ffprobe.exe`. Rendering therefore does not require a system-wide `ffmpeg` executable. The implementation will verify the packaged binary setup with a real MP4 smoke render and will use Remotion's default binary resolution unless an explicit `binariesDirectory` override is needed.
 
 ## Testing strategy
 

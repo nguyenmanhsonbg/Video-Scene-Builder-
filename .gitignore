@@ -1,0 +1,7 @@
+node_modules/
+dist/
+output/
+.render/
+tests/tmp/
+tests/fixtures/Q01/audio/
+*.tsbuildinfo

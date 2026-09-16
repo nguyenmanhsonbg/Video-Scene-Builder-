@@ -1,0 +1,56 @@
+{
+  "questionId": "Q01",
+  "segments": [
+    {
+      "segment": "QUESTION",
+      "events": [
+        {"at": 0.0, "action": "SHOW", "target": "active_subject"},
+        {"at": 0.0, "action": "SHOW", "target": "active_adverb"},
+        {"at": 0.0, "action": "SHOW", "target": "active_verb"},
+        {"at": 0.0, "action": "SHOW", "target": "active_object"}
+      ]
+    },
+    {
+      "segment": "THINK",
+      "events": [
+        {"at": 1.0, "action": "SHOW", "target": "think_prompt"}
+      ]
+    },
+    {
+      "segment": "IDENTIFY_SVO",
+      "events": [
+        {"at": 0.72, "action": "REVEAL_UNDERLINE", "target": "underline_subject"},
+        {"at": 0.76, "action": "SHOW", "target": "label_s"},
+        {"at": 1.53, "action": "REVEAL_UNDERLINE", "target": "underline_verb"},
+        {"at": 1.57, "action": "SHOW", "target": "label_v"},
+        {"at": 2.39, "action": "REVEAL_OUTLINE", "target": "underline_object"},
+        {"at": 2.43, "action": "SHOW", "target": "label_o"},
+        {"at": 3.2, "action": "HIGHLIGHT", "target": "adverb_highlight"}
+      ]
+    },
+    {
+      "segment": "TRANSFORM",
+      "events": [
+        {"at": 0.22, "action": "SHOW", "target": "transform_object_source"},
+        {"at": 0.66, "action": "MOVE_OBJECT", "target": "passive_subject"},
+        {"at": 3.07, "action": "SHOW", "target": "note_singular"},
+        {"at": 3.83, "action": "BUILD", "target": "be_token"},
+        {"at": 5.48, "action": "CHANGE_VERB", "target": "verb_v3"},
+        {"at": 7.67, "action": "BUILD", "target": "build_subject"},
+        {"at": 8.21, "action": "BUILD", "target": "build_be"},
+        {"at": 8.76, "action": "BUILD", "target": "build_v3"},
+        {"at": 10.4, "action": "BUILD", "target": "build_adverb"},
+        {"at": 11.5, "action": "BUILD", "target": "build_agent"}
+      ]
+    },
+    {
+      "segment": "FINAL_ANSWER",
+      "events": [
+        {"at": 0.0, "action": "SHOW", "target": "answer_box"},
+        {"at": 0.0, "action": "SHOW", "target": "answer_text"},
+        {"at": 2.0, "action": "SHOW", "target": "grammar_rule_label"},
+        {"at": 2.0, "action": "SHOW", "target": "grammar_rule_text"}
+      ]
+    }
+  ]
+}
